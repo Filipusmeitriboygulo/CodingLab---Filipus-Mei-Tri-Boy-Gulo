@@ -194,6 +194,7 @@ judul-content {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  margin-top: 20px;
 }
 
 .content-right img {
@@ -227,6 +228,17 @@ judul-content {
   margin-bottom: 20px;
 }
 
+/* Style Button */
+.content-right button {
+  font-size: 15px;
+  border-radius: 10%;
+  color: #fff;
+  border: 3px solid white;
+  background-color: salmon;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+/* Akhir Style Button */
 .footer {
   background-color: salmon;
   padding: 10px;
