@@ -6,9 +6,9 @@
     <title>Document</title>
 
     <style>
-     * {
+      * {
         background-color: #eaeaea;
-     }
+      }
       p {
         color: red;
       }
@@ -16,6 +16,8 @@
         color: black !important;
         font-variant: small-caps;
         font-weight: bold;
+        font-size: 13px;
+        text-align: left;
       }
       #judul-content {
         color: salmon !important;
@@ -25,6 +27,66 @@
         margin: 0;
         margin-bottom: 10px;
       }
+
+      .nama1 .nama2 {
+        font-variant: small-caps;
+        color: aquamarine;
+        font-weight: bolder;
+      }
+      p.intro {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: bold;
+        color: blueviolet;
+      }
+      div,
+      p {
+        font-variant: small-caps;
+        font-size: 35px;
+        text-align: center;
+        color: chartreuse;
+      }
+      div p {
+        font-size: 24px;
+        font-weight: bold;
+        color: blue;
+      }
+      div > p {
+        font-size: 24px;
+        font-weight: bold;
+        color: purple;
+      }
+      .halo > p {
+        color: red;
+        font-size: 50px;
+        text-align: right;
+      }
+      div + p {
+        color: gray;
+      }
+      p ~ ul {
+        color: magenta;
+        list-style-type: none;  
+      }
+
+      a[target="halo"] {
+        color: blueviolet;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      h1, h2, h3 {
+        background-color: black;
+        color: #fff;
+      }
+      p::first-letter {
+        font-size: 24px;
+        font-weight: bold;
+        color: chocolate  ;
+      }
+      .tombol:hover{
+        font-size: 50px;
+        color: #000;
+      }
+
     </style>
   </head>
   <body>
@@ -34,5 +96,33 @@
       molestiae quisquam dolore?
     </p>
     <p class="content">Saya Bercita cita Menjadi Seorang AI Enggineer</p>
+    <ul>
+      <li class="nama1">
+        <p class="nama2">Perkenalkan nama saya 1</p>
+      </li>
+      <p class="intro">Perkenalkan Nama Saya Boy</p>
+      <div>
+        <p>Halllloooooooo</p>
+        <p>Suiiiiiiiii</p>
+      </div>
+      <p>Perkenalkan Saya Muhammad Firdaus Gulo</p>
+      <div class="halo">
+        <p>Helllllo</p>
+      </div>
+
+      <p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </p>
+
+      <a href="halo.html">Blank</a>
+      <h1>Ini heading pertama</h1>
+      <h2>Ini Heading kedua</h2>
+      <h3>Ini Heading ketiga</h3>
+    </ul>
+    <p class="tombol">Ini Tombol</p>
   </body>
 </html>
