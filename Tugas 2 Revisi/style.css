@@ -145,6 +145,7 @@ body {
 
 .header {
   padding: 20px;
+  margin: 0;
 }
 
 .header,
@@ -244,6 +245,7 @@ judul-content {
   padding: 10px;
   height: 40px;
   top: 0;
+  bottom: 0;
 }
 
 .footer .copy {
