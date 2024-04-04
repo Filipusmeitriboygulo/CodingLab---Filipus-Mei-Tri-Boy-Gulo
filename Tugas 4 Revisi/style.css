@@ -1,0 +1,473 @@
+/* Micro Clearfix */
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+/* CSS Rest */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Akhir Css Reset */
+
+.container {
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+/* Awal Style logo header */
+.header,
+logo {
+  background-color: salmon;
+  color: white;
+  font-size: 35px;
+  font-variant: small-caps;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Akhir Style logo header */
+
+/* Style Menu header */
+
+.header ul {
+  display: flex;
+  background-color: green;
+  font-size: 20px;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.header ul li a {
+  text-decoration: none;
+}
+
+/* Akhir Style menu header */
+
+/* Awal Style Content */
+.content {
+  background-color: #ddd;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Home */
+.home .row-cf {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 600px;
+}
+
+.hero-image {
+  background-color: aqua;
+  font-size: 35px;
+  font-weight: 700;
+  width: 45%;
+  text-align: center;
+  line-height: 600px;
+}
+
+.content-home {
+  font-size: 35px;
+  font-weight: 700;
+  width: 55%;
+  background-color: blanchedalmond;
+  text-align: center;
+  line-height: 600px;
+}
+
+.service {
+  background-color: blueviolet;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.service .proses {
+  margin-top: 30px;
+  padding: 20px;
+  width: 250px;
+  margin-right: 20px;
+  height: 150px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 150px;
+  background-color: lightslategray;
+}
+
+/* Akhir Home */
+
+/* About  */
+.about {
+  background-color: lightblue;
+  width: 1024px;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.content-about {
+  font-size: 35px;
+  font-weight: 700;
+  width: 65%;
+  background-color: #bed7dc;
+  text-align: center;
+  line-height: 600px;
+  float: left;
+  height: 500px;
+  line-height: 500px;
+}
+
+.about-image {
+  background-color: #fb9ad1;
+  font-size: 35px;
+  font-weight: 700;
+  width: 35%;
+  text-align: center;
+  line-height: 600px;
+  float: right;
+  height: 500px;
+  line-height: 500px;
+}
+/* Akhir About */
+
+/* Features */
+.features {
+  background-color: #a1c398;
+  width: 1024px;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.row-cf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.judul {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-item {
+  border: 1px solid #999;
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  line-height: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: salmon;
+}
+/* Akhir Features */
+
+/* Banner Features */
+.banner-features {
+  background-color: #f1ef99;
+  width: 1024px;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.banner-image {
+  font-size: 35px;
+  font-weight: 700;
+  width: 45%;
+  background-color: #bed7dc;
+  text-align: center;
+  line-height: 600px;
+  float: left;
+  height: 500px;
+  line-height: 500px;
+}
+
+.content-banner {
+  background-color: #fb9ad1;
+  font-size: 35px;
+  font-weight: 700;
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 55%;
+  text-align: left;
+  line-height: 600px;
+  float: right;
+  height: 500px;
+  line-height: 100px;
+}
+
+.info-banner {
+  border: 1px solid black;
+  font-size: 12px;
+  width: 400px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.info-banner span {
+  margin-left: 100px;
+}
+
+.info-banner p {
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 50px;
+  line-height: 20px;
+}
+
+/* banner full */
+.banner-full {
+  background-color: #fb6d48;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.content-banner-full {
+  margin-top: 30px;
+  padding: 20px;
+  width: 250px;
+  margin-right: 20px;
+  height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+/* Akhir Banner Full */
+
+/* App Screenshoot */
+.app-screenshoot {
+  width: 1024px;
+  background-color: #c6ebc5;
+  margin: 50px auto;
+  height: 400px;
+}
+
+.col-cf {
+  display: block;
+  flex-direction: row;
+}
+
+.judul-content {
+  width: 100%;
+  background-color: #c0d6e8;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  height: 150px;
+}
+
+.judul-content p {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.slider-image {
+  background-color: #d1bb9e;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  height: 250px;
+  line-height: 250px;
+}
+/* Akhir App Screenshot */
+
+/* Download Available  */
+
+.download-available {
+  background-color: gray;
+  height: 250px;
+}
+
+.judul-download {
+  width: 1024px;
+  background-color: #c0d6e8;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  height: 250px;
+  line-height: 100px;
+}
+
+.judul-download p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.judul-download button {
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid salmon solid;
+}
+/* Akhir download */
