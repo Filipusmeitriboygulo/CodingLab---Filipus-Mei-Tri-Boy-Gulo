@@ -286,16 +286,47 @@ logo {
   justify-content: center;
 }
 
-.service .proses {
+.proses {
+  display: flex;
   margin-top: 30px;
   padding: 20px;
   width: 370px;
   margin-right: 20px;
-  height: 150px;
+  height: 200px;
   border-radius: 10px;
   text-align: center;
   line-height: 150px;
-  background-color: lightslategray;
+  background-color: #fff;
+}
+
+.proses .logo-service img {
+  margin-top: 25px;
+  background-repeat: no-repeat;
+  background-position: 0px 20px;
+  background-size: contain;
+  height: 150px;
+}
+
+.proses .content-service {
+  height: 150px;
+  margin-top: 25px;
+  width: 100%;
+  line-height: 60px;
+}
+
+.proses .content-service .judul-service {
+  font-size: 25px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.proses .content-service p {
+  font-size: 12px;
+  line-height: 25px;
+  text-align: justify;
 }
 
 /* Akhir Home */
@@ -306,7 +337,6 @@ logo {
   margin: 0 auto;
   height: 500px;
   margin-top: 50px;
-  flex-direction: row;
 }
 
 .content-about {
@@ -329,7 +359,7 @@ logo {
 }
 
 .info-about p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 100;
   line-height: 20px;
   text-align: justify;
@@ -338,7 +368,7 @@ logo {
 .watch button {
   font-size: 20px;
   margin-top: 40px;
-  background-color: #B80000;
+  background-color: #b80000;
   border: 2px white;
   color: white;
   border-radius: 5px;
@@ -377,25 +407,46 @@ logo {
   justify-content: center;
 }
 
-.judul {
+.judul h2 {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
   padding: 20px;
+  box-sizing: border-box;
+}
+
+.judul p {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .feature-item {
-  border: 1px solid #999;
+  margin-top: 20px;
   border-radius: 10px;
-  height: 200px;
+  height: 250px;
   width: 350px;
   padding: 5px;
   box-sizing: border-box;
   margin-right: 10px;
-  line-height: 200px;
+  line-height: 50px;
   text-align: center;
-  margin-bottom: 20px;
-  background-color: salmon;
+  background-color: #fff;
+}
+
+
+
+.feature-item .content-feature .judul-feature {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.feature-item .content-feature p {
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
 }
 /* Akhir Features */
 
@@ -405,7 +456,7 @@ logo {
   background-repeat: repeat;
   background-size: contain;
   background-position: -200px -350px;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 .banner-features {
   width: 1024px;
@@ -470,7 +521,7 @@ logo {
   /* background-image: url(img/banner.jpg);
   background-size: cover;
   background-position: 100px -2000px; */
- background-image: url(img/background-home.jpg);
+  background-image: url(img/background-home.jpg);
   margin-top: 50px;
   height: 200px;
 }
@@ -558,10 +609,14 @@ logo {
 
 .judul-download button {
   font-size: 20px;
-  border-radius: 10px;
-  border: 2px solid #fb6d48;
-  background-color: #fb6d48;
+  margin-top: 40px;
+  background-color: #b80000;
+  border: 2px white;
   color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  box-sizing: border-box;
 }
 /* Akhir download */
 
