@@ -225,8 +225,9 @@ logo {
 .home .row-cf {
   margin: 0;
   padding: 0;
-  height: 800px;
-  background-image: url(img/background.jpg);
+  height: 920px;
+  background-color: salmon;
+  background-image: url(img/background-home.jpg);
 }
 
 .row-cf {
@@ -236,32 +237,46 @@ logo {
 .hero-image {
   font-size: 35px;
   font-weight: 700;
-  width: 45%;
+  width: 48%;
   text-align: center;
   line-height: 600px;
   background-image: url(img/hero.webp);
-  background-position: 100px -50px;
-  background-size: cover;
+  background-position: 70px -80px;
+  background-repeat: no-repeat;
+  background-size: 1100px;
+  /* background-color: #fff  ; */
 }
 
 .content-home {
-  font-size: 35px;
-  font-weight: 700;
-  color: white;
-  width: 55%;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 60px;
+  width: 52%;
   text-align: left;
-  display: flex;
-  align-items: center;
+  float: right;
+  height: 500px;
+  line-height: 80px;
+  margin-top: 300px;
+  color: white;
+  font-weight: bold;
+  /* background-color: #f1ef99; */
 }
 
 .content-details {
-  display: flex;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.content-details p {
   font-size: 20px;
-  font-weight: 300;
-  flex-direction: column;
-  justify-content: center;
+  font-weight: 100;
+  line-height: 20px;
   text-align: justify;
-  width: 45%; /* Sesuaikan dengan lebar .content-home */
+  line-height: 30px;
+  color: white;
 }
 
 .service {
@@ -274,7 +289,7 @@ logo {
 .service .proses {
   margin-top: 30px;
   padding: 20px;
-  width: 250px;
+  width: 370px;
   margin-right: 20px;
   height: 150px;
   border-radius: 10px;
@@ -287,35 +302,60 @@ logo {
 
 /* About  */
 .about {
-  width: 1024px;
+  width: 1300px;
   margin: 0 auto;
   height: 500px;
   margin-top: 50px;
+  flex-direction: row;
 }
 
 .content-about {
   font-size: 35px;
   font-weight: 700;
-  width: 55%;
-
-  text-align: center;
-  line-height: 600px;
-  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: left;
+  float: right;
   height: 500px;
-  line-height: 500px;
+  line-height: 100px;
+}
+
+.info-about {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.info-about p {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.watch button {
+  font-size: 20px;
+  margin-top: 40px;
+  background-color: #B80000;
+  border: 2px white;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  box-sizing: border-box;
 }
 
 .about-image {
   background-image: url(img/about.png);
-  background-position: -50px 50px;
+  background-position: 120px 40px;
   background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 35px;
-  font-weight: 700;
-  width: 45%;
+  background-size: contain;
+  width: 50%;
   text-align: center;
   line-height: 600px;
-  float: right;
+  float: left;
   height: 500px;
   line-height: 500px;
 }
@@ -324,7 +364,7 @@ logo {
 /* Features */
 .features {
   /* background-color: #a1c398; */
-  width: 1024px;
+  width: 1300px;
   margin: 0 auto;
   height: 500px;
   margin-top: 40px;
@@ -348,7 +388,7 @@ logo {
   border: 1px solid #999;
   border-radius: 10px;
   height: 200px;
-  width: 300px;
+  width: 350px;
   padding: 5px;
   box-sizing: border-box;
   margin-right: 10px;
@@ -361,23 +401,20 @@ logo {
 
 /* Banner Features */
 .banner {
-  background-image: url(img/background-banner.jpg);
-  background-repeat: repeat-x;
+  background-image: url(img/greek-vase.webp);
+  background-repeat: repeat;
   background-size: contain;
   background-position: -200px -350px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .banner-features {
   width: 1024px;
   margin: 0 auto;
   height: 500px;
-  /* margin-top: 40px; */
   box-sizing: border-box;
 }
 
 .banner-image {
-  font-size: 35px;
-  font-weight: 700;
   width: 45%;
   background-image: url(img/work.webp);
   background-repeat: no-repeat;
@@ -403,12 +440,17 @@ logo {
 
 .info-banner {
   border: 1px solid black;
+  border: 1px solid black;
+  font-size: 12px;
+  width: 400px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 40px;
   font-size: 12px;
   width: 400px;
   height: 50px;
   line-height: 50px;
   padding-left: 10px;
-  box-sizing: border-box;
   margin-top: 40px;
 }
 
@@ -425,7 +467,10 @@ logo {
 
 /* banner full */
 .banner-full {
-  background-image: url(img/banner.jpg);
+  /* background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: 100px -2000px; */
+ background-image: url(img/background-home.jpg);
   margin-top: 50px;
   height: 200px;
 }
@@ -447,7 +492,7 @@ logo {
 
 /* App Screenshoot */
 .app-screenshoot {
-  width: 1024px;
+  width: 1300px;
   margin: 50px auto;
   height: 400px;
 }
@@ -496,7 +541,7 @@ logo {
 }
 
 .judul-download {
-  width: 1024px;
+  width: 1300px;
   font-size: 30px;
   font-weight: 700;
   text-align: center;
@@ -522,8 +567,8 @@ logo {
 
 /* Pricing */
 .pricing {
-  background-color: #a1c398;
-  width: 1024px;
+  background-color: #fff;
+  width: 1300px;
   margin: 0 auto;
   height: 380px;
   margin-top: 40px;
@@ -553,7 +598,10 @@ logo {
 /* Akhir Pricing */
 
 .testimoni {
-  background-image: url(img/banner.jpg);
+  /* background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: 100px -2000px; */
+  background-image: url(img/background-home.jpg);
   margin-top: 50px;
   height: 200px;
 }
@@ -620,7 +668,7 @@ logo {
 }
 
 .judul-contact {
-  width: 1024px;
+  width: 1300px;
   background-color: #f0f0f0;
   font-size: 30px;
   font-weight: 700;
