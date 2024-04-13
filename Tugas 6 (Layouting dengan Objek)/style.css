@@ -177,7 +177,7 @@ table {
 
 .header,
 logo {
-  background-color: salmon;
+  background-color: #FF6969;
   color: white;
   font-size: 35px;
   font-variant: small-caps;
@@ -226,8 +226,8 @@ logo {
   margin: 0;
   padding: 0;
   height: 920px;
-  background-color: salmon;
   background-image: url(img/background-home.jpg);
+  /* background-color: #FF6969; */
 }
 
 .row-cf {
@@ -368,7 +368,7 @@ logo {
 .watch button {
   font-size: 20px;
   margin-top: 40px;
-  background-color: #b80000;
+  background-color: #FF6969;
   border: 2px white;
   color: white;
   border-radius: 5px;
@@ -433,8 +433,6 @@ logo {
   text-align: center;
   background-color: #fff;
 }
-
-
 
 .feature-item .content-feature .judul-feature {
   font-size: 25px;
@@ -562,12 +560,11 @@ logo {
 }
 
 .judul-content p {
-  margin-top: 40px;
-  font-size: 20px;
-  font-weight: 100;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: lighter;
   text-align: center;
-  padding: 10px;
-  box-sizing: border-box;
 }
 
 .slider-image {
@@ -593,7 +590,7 @@ logo {
 
 .judul-download {
   width: 1300px;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
   height: 250px;
@@ -601,21 +598,23 @@ logo {
 }
 
 .judul-download p {
-  font-size: 20px;
-  font-weight: lighter;
-  margin-top: 20px;
+  margin-top: 10px;
+  font-size: 14px;
   line-height: 20px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .judul-download button {
   font-size: 20px;
-  margin-top: 40px;
-  background-color: #b80000;
+  margin-top: 20px;
+  background-color: #FF6969;
   border: 2px white;
   color: white;
   border-radius: 5px;
   padding: 5px;
   font-weight: bold;
+  border-radius: 5px;
   box-sizing: border-box;
 }
 /* Akhir download */
@@ -626,29 +625,135 @@ logo {
   width: 1300px;
   margin: 0 auto;
   height: 380px;
-  margin-top: 40px;
+  margin-top: 20px;
   box-sizing: border-box;
 }
 
+/* .row-cf {
+  justify-content: center;
+} */
+
 .judul-pricing {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   text-align: center;
   padding: 20px;
 }
 
+.judul-pricing p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
 .pricing-plan {
-  border: 1px solid #999;
+  margin-top: 20px;
   border-radius: 10px;
-  height: 300px;
-  width: 300px;
+  height: 380px;
+  width: 350px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
   padding: 5px;
   box-sizing: border-box;
-  margin-right: 10px;
-  line-height: 300px;
+  margin-right: 15px;
+  line-height: 50px;
   text-align: center;
-  margin-bottom: 20px;
+  background-color: #fff;
+  border: 5px solid black;
+  color: black;
+}
+
+.pricing-plan .judul-pricing-plan {
+  line-height: 100px;
+}
+
+.pricing-plan .content-pricing-plan p {
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  color: black;
+  line-height: 60px;
+}
+
+.pricing-plan .content-pricing-plan .angka {
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  color: black;
+}
+
+.pricing-plan .content-pricing-plan .huruf {
+  line-height: 30px;
+}
+
+.pricing-plan .purchase button {
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 2px solid black;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.pricing-plan-center {
   background-color: salmon;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 380px;
+  width: 350px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-right: 15px;
+  line-height: 50px;
+  text-align: center;
+  border: 5px solid black;
+  color: black;
+}
+
+.pricing-plan-center .judul-pricing-plan {
+  line-height: 100px;
+}
+
+.pricing-plan-center .content-pricing-plan p {
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  color: black;
+  line-height: 60px;
+}
+
+.pricing-plan-center .content-pricing-plan .angka {
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  color: black;
+}
+
+.pricing-plan-center .content-pricing-plan .huruf {
+  line-height: 30px;
+}
+
+.pricing-plan-center .purchase button {
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: salmon;
+  border: 2px solid black;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 /* Akhir Pricing */
 
@@ -657,7 +762,7 @@ logo {
   background-size: cover;
   background-position: 100px -2000px; */
   background-image: url(img/background-home.jpg);
-  margin-top: 50px;
+  margin-top: 200px;
   height: 200px;
 }
 
@@ -725,20 +830,22 @@ logo {
 .judul-contact {
   width: 1300px;
   background-color: #f0f0f0;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: bold;
   text-align: center;
-  height: 250px;
-  line-height: 100px;
+  padding: 20px;
 }
 
 .judul-contact p {
-  font-size: 20px;
-  font-weight: lighter;
+  margin-top: 20px;
+  font-size: 14px;
   line-height: 20px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .judul-contact input {
+  margin-top: 40px;
   width: 300px;
   height: 35px;
   padding: 5px;
@@ -747,36 +854,44 @@ logo {
 
 .judul-contact button {
   font-size: 20px;
-  width: 100px;
-  height: 35px;
-  border-radius: 10px;
-  border: 2px solid #fb6d48;
-  background-color: #fb6d48;
+  margin-top: 20px;
+  background-color: #FF6969;
+  border: 2px white;
   color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 /* Form */
 
 .form-contact {
-  background-color: #f1ef99;
+  background-color: #fff;
   width: 1024px;
   margin: 0 auto;
   height: 500px;
   margin-top: 40px;
-  box-sizing: border-box;
-  justify-content: center;
 }
 
 .form {
-  font-size: 35px;
+  width: 55%;
+  height: 570px;
+}
+
+.form form {
+  margin-left: 40px;
+  width: 80%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* background-color: black; */
+  margin-top: 80px;
+  font-size: 40px;
   font-weight: 700;
-  width: 45%;
-  background-color: #fff;
   text-align: center;
-  line-height: 600px;
-  float: left;
-  height: 500px;
-  line-height: 500px;
 }
 
 .form input {
@@ -786,15 +901,21 @@ logo {
   margin-bottom: 20px;
 }
 
-.form button {
+.btn {
+  /* background-color: purple; */
+  text-align: center;
+}
+
+.btn button {
   font-size: 20px;
-  width: 100px;
-  height: 35px;
-  border-radius: 10px;
-  border: 2px solid #fb6d48;
-  background-color: #fb6d48;
+  background-color: #FF6969;
+  border: 2px white;
   color: white;
-  line-height: -35px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 .map {
@@ -802,7 +923,7 @@ logo {
   font-weight: 700;
   padding-left: 20px;
   box-sizing: border-box;
-  width: 55%;
+  width: 45%;
   text-align: left;
   line-height: 600px;
   float: right;
@@ -813,7 +934,7 @@ logo {
 }
 
 .map iframe {
-  height: 98%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -822,33 +943,48 @@ logo {
 
 /* Footer */
 .footer {
-  background-color: salmon;
+  background-color:  #FF6969;;
   margin-top: 50px;
   height: 350px;
+  flex-direction: column;
 }
 
 .content-footer {
-  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   padding: 20px;
   width: 250px;
-  margin-right: 20px;
-  height: 100px;
+  margin-right: 50px;
   border-radius: 10px;
-  line-height: 100px;
   color: white;
   font-weight: 100;
   font-size: 16px;
 }
 
+.content-footer .logo-footer-main img {
+  margin-top: 25px;
+  background-repeat: no-repeat;
+  background-position: 0px 20px;
+  background-size: contain;
+}
+.content-footer .isi-footer {
+  height: 150px;
+  margin-top: 25px;
+  width: 100%;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
 .logo-footer {
-  margin-top: 30px;
-  padding: 20px;
-  width: 250px;
-  margin-right: 20px;
-  height: 100px;
-  border-radius: 10px;
-  line-height: 100px;
   color: white;
   font-weight: 100;
   font-size: 16px;
+  text-align: center;
+}
+
+.copy {
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
 }
