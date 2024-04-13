@@ -160,7 +160,6 @@ table {
 
 .container {
   font-family: "DM Sans", sans-serif;
-  background-color: white;
 }
 
 /* Awal Style logo header */
@@ -177,7 +176,7 @@ table {
 
 .header,
 logo {
-  background-color: #FF6969;
+  background-color: #ff6969;
   color: white;
   font-size: 35px;
   font-variant: small-caps;
@@ -214,13 +213,21 @@ logo {
 /* Awal Style Content */
 .content {
   display: block;
-  background-color: #fff;
-  margin: auto;
-  padding: 20px;
-  box-sizing: border-box;
+  /* background-color: #ff; */
+  margin: 0;
+  padding: 0;
+  /* padding: 20px;
+  box-sizing: border-box; */
+  width: 100%;
 }
 
+
+
 /* Home */
+
+.home {
+  width: 100%;
+}
 
 .home .row-cf {
   margin: 0;
@@ -368,7 +375,7 @@ logo {
 .watch button {
   font-size: 20px;
   margin-top: 40px;
-  background-color: #FF6969;
+  background-color: #ff6969;
   border: 2px white;
   color: white;
   border-radius: 5px;
@@ -607,7 +614,7 @@ logo {
 .judul-download button {
   font-size: 20px;
   margin-top: 20px;
-  background-color: #FF6969;
+  background-color: #ff6969;
   border: 2px white;
   color: white;
   border-radius: 5px;
@@ -854,7 +861,7 @@ logo {
 .judul-contact button {
   font-size: 20px;
   margin-top: 20px;
-  background-color: #FF6969;
+  background-color: #ff6969;
   border: 2px white;
   color: white;
   border-radius: 5px;
@@ -907,7 +914,7 @@ logo {
 
 .btn button {
   font-size: 20px;
-  background-color: #FF6969;
+  background-color: #ff6969;
   border: 2px white;
   color: white;
   border-radius: 5px;
@@ -942,7 +949,7 @@ logo {
 
 /* Footer */
 .footer {
-  background-color:  #FF6969;;
+  background-color: #ff6969;
   margin-top: 50px;
   height: 350px;
   flex-direction: column;
