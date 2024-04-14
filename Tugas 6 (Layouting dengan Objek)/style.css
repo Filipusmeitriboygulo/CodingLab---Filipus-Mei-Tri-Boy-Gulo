@@ -199,6 +199,14 @@ logo {
 .header ul li a {
   text-decoration: none;
   color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.header ul li a:hover {
+  color: #31363F;
 }
 
 .download button {
@@ -208,7 +216,7 @@ logo {
   color: white;
 }
 
-/* Akhir Style menu header */
+
 
 /* Awal Style Content */
 .content {
@@ -218,10 +226,7 @@ logo {
   padding: 0;
   /* padding: 20px;
   box-sizing: border-box; */
-  width: 100%;
 }
-
-
 
 /* Home */
 
@@ -232,7 +237,7 @@ logo {
 .home .row-cf {
   margin: 0;
   padding: 0;
-  height: 920px;
+  height: 950px;
   background-image: url(img/background-home.jpg);
   /* background-color: #FF6969; */
 }
@@ -292,6 +297,11 @@ logo {
   display: flex;
   justify-content: center;
 }
+
+.service :hover {
+  background-color: #f0f0f0;
+}
+
 
 .proses {
   display: flex;
@@ -412,6 +422,10 @@ logo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.row-cf .items {
+  display: flex;
 }
 
 .judul h2 {
@@ -672,6 +686,10 @@ logo {
   color: black;
 }
 
+.pricing-plan:hover {
+  background-color: #ff6969;
+}
+
 .pricing-plan .judul-pricing-plan {
   line-height: 100px;
 }
@@ -709,7 +727,7 @@ logo {
 }
 
 .pricing-plan-center {
-  background-color: salmon;
+  background-color: #ff6969;
   margin-top: 20px;
   border-radius: 10px;
   height: 380px;
@@ -752,7 +770,7 @@ logo {
 .pricing-plan-center .purchase button {
   font-size: 20px;
   margin-top: 20px;
-  background-color: salmon;
+  background-color: #ff6969;
   border: 2px solid black;
   color: black;
   border-radius: 5px;
