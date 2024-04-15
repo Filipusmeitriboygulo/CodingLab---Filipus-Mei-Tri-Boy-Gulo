@@ -206,7 +206,7 @@ logo {
 }
 
 .header ul li a:hover {
-  color: #31363F;
+  color: #31363f;
 }
 
 .download button {
@@ -215,8 +215,6 @@ logo {
   border: 2px solid white;
   color: white;
 }
-
-
 
 /* Awal Style Content */
 .content {
@@ -291,6 +289,26 @@ logo {
   color: white;
 }
 
+.download-home button {
+  font-size: 20px;
+  margin-top: 40px;
+  background-color: #ff6969;
+  border: 2px white;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.download-home button:hover {
+  opacity: 0.8;
+}
+
+.download-home button:active {
+  opacity: 0.5;
+}
+
 .service {
   width: 100%;
   height: 250px;
@@ -301,7 +319,6 @@ logo {
 .service :hover {
   background-color: #f0f0f0;
 }
-
 
 .proses {
   display: flex;
@@ -389,9 +406,17 @@ logo {
   border: 2px white;
   color: white;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 40px;
   font-weight: bold;
   box-sizing: border-box;
+}
+
+.watch button:hover {
+  opacity: 0.8;
+}
+
+.watch button:active {
+  opacity: 0.5;
 }
 
 .about-image {
@@ -437,6 +462,7 @@ logo {
 }
 
 .judul p {
+  margin-top: 10px;
   font-size: 16px;
   text-align: center;
 }
@@ -452,6 +478,10 @@ logo {
   line-height: 50px;
   text-align: center;
   background-color: #fff;
+}
+
+.feature-item:hover {
+  background-color: #ff6969;
 }
 
 .feature-item .content-feature .judul-feature {
@@ -628,15 +658,33 @@ logo {
 .judul-download button {
   font-size: 20px;
   margin-top: 20px;
-  background-color: #ff6969;
+  background-color: #fff;
   border: 2px white;
-  color: white;
+  color: black;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 40px;
   font-weight: bold;
   border-radius: 5px;
   box-sizing: border-box;
 }
+
+.judul-download .center {
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #ff6969;
+  border: 2px white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.judul-download .btn-download :hover {
+  background-color: #ff6969;
+}
+
 /* Akhir download */
 
 /* Pricing */
@@ -690,6 +738,7 @@ logo {
   background-color: #ff6969;
 }
 
+
 .pricing-plan .judul-pricing-plan {
   line-height: 100px;
 }
@@ -720,10 +769,19 @@ logo {
   border: 2px solid black;
   color: black;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 40px;
   font-weight: bold;
   border-radius: 5px;
   box-sizing: border-box;
+}
+
+.pricing-plan .purchase button:hover {
+  opacity: 0.8;
+  background-color: #ff6969;
+}
+
+.pricing-plan .purchase button:active {
+  opacity: 0.5;
 }
 
 .pricing-plan-center {
@@ -774,7 +832,7 @@ logo {
   border: 2px solid black;
   color: black;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 40px;
   font-weight: bold;
   border-radius: 5px;
   box-sizing: border-box;
@@ -883,10 +941,18 @@ logo {
   border: 2px white;
   color: white;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 20px;
   font-weight: bold;
   border-radius: 5px;
   box-sizing: border-box;
+}
+
+.judul-contact button:hover {
+  opacity: 0.8;
+}
+
+.judul-contact button:active {
+  opacity: 0.3;
 }
 
 /* Form */
@@ -936,10 +1002,18 @@ logo {
   border: 2px white;
   color: white;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 40px;
   font-weight: bold;
   box-sizing: border-box;
   align-items: center;
+}
+
+.btn button:hover {
+  opacity: 0.8;
+}
+
+.btn button:active {
+  opacity: 0.3;
 }
 
 .map {
@@ -1011,4 +1085,12 @@ logo {
   margin-top: 30px;
   text-align: center;
   color: #fff;
+}
+
+.copy p {
+  font-size: 11 px;
+}
+.copy span {
+  font-weight: bold;
+  margin-right: 2px;
 }
