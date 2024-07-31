@@ -202,7 +202,7 @@ logo {
   font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 .header ul li a:hover {
@@ -941,7 +941,7 @@ logo {
   border: 2px white;
   color: white;
   border-radius: 5px;
-  padding: 5px 20px;
+  padding: 6px 20px;
   font-weight: bold;
   border-radius: 5px;
   box-sizing: border-box;
@@ -1094,3 +1094,5 @@ logo {
   font-weight: bold;
   margin-right: 2px;
 }
+
+  
